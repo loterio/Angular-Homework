@@ -7,10 +7,16 @@ div.container p{
     line-height: 1.5;
     color: #212529;
 }
-div.container h1.tt span{
-    color: white;
+div.container h1.tt{
+    background: rgba(47, 105, 214, 0.733);
+    padding: 4px 4px 6px 10px;
+    border-radius: 3px;
 }
-div.container h1.tt:hover{
-    color: rgba(0, 0, 255, 0.61);
-    transition: .31s;
+/* div.container h1.tt:hover{ } */
+h2,h3,h4,h5,h6 {
+    padding-left: 4px;
+}
+h2:hover, h3:hover, h4:hover, h5:hover, h6 :hover {
+    border-left: 5px solid rgba(47, 105, 214, 0.733);
+    transition: .226s;
 }
