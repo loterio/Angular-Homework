@@ -7,3 +7,10 @@ div.container p{
     line-height: 1.5;
     color: #212529;
 }
+div.container h1.tt span{
+    color: white;
+}
+div.container h1.tt:hover{
+    color: rgba(0, 0, 255, 0.61);
+    transition: .31s;
+}
